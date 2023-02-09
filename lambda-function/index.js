@@ -1,6 +1,6 @@
 const { S3Client, GetObjectCommand, PutObjectCommand } = require('@aws-sdk/client-s3');
 const sharp = require('sharp');
-//test
+
 exports.handler = (event) => {
     // Get new object key from event object
     const sourceKey = event.Records[0].s3.object.key
