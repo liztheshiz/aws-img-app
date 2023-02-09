@@ -16,11 +16,11 @@ The lambda-function/index.js file contains the handler function uploaded as a La
 
 The movie-api/index.js file contains only the newly written code that was added to the index.js file on the web servers. In addition to this added code, the MongoDB URI environment variable directed to a private EC2 instance on which the database was running instead of the original MongoDB Atlas deployment.
 
-The files uner movie-client/ were added to the client code, which was deployed to an S3 bucket configured as a static website. In addition to these files, all API calls from the client site were changed from the Heroku API deployment to the DNS of the web server ALB on AWS.
+The files under movie-client/ were added to the client code, which was deployed to an S3 bucket configured as a static website. In addition to these files, all API calls from the client site were changed from the Heroku API deployment to the DNS of the web server ALB on AWS.
 
 ## Dependencies
 
-In addition to dependencies of Cinema.Database app, these new dependencies were added:
+In addition to the dependencies of the original Cinema.Database app, these new dependencies were added:
 
 ### Web servers
 
