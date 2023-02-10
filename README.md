@@ -6,7 +6,7 @@ This repo contains code from my AWS refactor and redeploy of Cinema.Database [(s
 
 In addition to the app's original functionality refactored and deployed to the cloud, this app contained new functionality that allowed the user to upload images to an S3 bucket, view a list of thumbnails of images in the bucket, and view the original images as requested.
 
-For a full break-down of the development of this cloud app, see the overview and case study on my portfolio page.
+For a full break-down of the development of this cloud app, see the [overview](https://liztheshiz.github.io/portfolio-website/portfolio-pages/aws-img-app.html) and case study on my portfolio page (case study upcoming).
 
 ## Repo notes
 
